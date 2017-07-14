@@ -3,8 +3,8 @@
 namespace Tests\Feature;
 
 
-use Tests\BrowserKitTestCase;
 
+use Tests\BrowserKitTestCase;
 
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;

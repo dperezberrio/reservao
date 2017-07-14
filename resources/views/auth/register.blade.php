@@ -25,7 +25,6 @@
                         </div>
 
 
-
                         <div class="form-group{{ $errors->has('rol') ? ' has-error' : '' }}">
                             <label for="rol" class="col-md-4 control-label">rol</label>
 
@@ -39,12 +38,6 @@
                                 @endif
                             </div>
                         </div>
-
-
-
-
-
-
 
 
 
