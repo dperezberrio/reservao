@@ -30,6 +30,7 @@
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
                         {{ 'Inicio De Pagina',config('app.name' ) }}
+                        
                     </a>
                 </div>
 

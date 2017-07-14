@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
     <div class="row">
         <div class="col-md-14 col-md-offset-0">
@@ -16,18 +17,24 @@
 							 <td><strong>NOMBRE</strong></td>
 							 <td><strong>ACCION</strong></td>
 				             </tr>							 
-							 @foreach($hotel as $item)
-							 <tr>							
-							<td><img src="{{asset($item->foto)}}"width="100" height="100" ></td>
-							 <td><a href="/hotel/{{$item->id}}/mostrar">VER</a></td>				
+							 @foreach($adminHotel as $item)
+							 <tr>
+
+
+							<td><img src="{{asset($item->foto)}}"width="150" height="150" ></td>
+
+							 <td><a href="/adminHotel/{{$item->id}}/mostrar">VER</a></td>
+					
 							 
 							 </tr>						 
 							 @endforeach()						                    
 							</table>					    
 						    <p>
 						
-						<a href="{{ url('/home') }}"><button class="btn btn-primary btn-lg">Atras</button></a>
-						
+						<a href="{{ url('/adminHome') }}"><button class="btn btn-primary btn-lg">Atras</button></a>
+						<button class="btn btn-primary btn-lg">Modificar</button></a>
+						<button class="btn btn-primary btn-lg">Agregar</button></a>
+						<button class="btn btn-primary btn-lg">Eliminar</button></a>
 
 
                     </div>

@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
         <title>RESERVAONLINE</title>
 
         <!-- Fonts -->
@@ -86,7 +87,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  Reserva Online
+                  BIENVENIDOS
+                  <BR>
+
+        <img src="{{asset('imagenes/RESERVAONLINE.jpg')}}"width="250" height="250" >
 				</div>				
 				
 				

@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 <div class="container">
     <div class="row">
         <div class="col-md-14 col-md-offset-0">
@@ -13,11 +14,14 @@
                 <div class="panel-body">
                     <div class="form-group">
                    
-                   <div class="col-md-14 col-md-offset-0">	            
-		            <tr><td><a href="{{ url('/hotel') }}"><img src="{{asset('imagenes/hotel.jpg')}}"width="350" height="350" ></td>
-				    <td><td><a href="{{ url('/motel') }}"><img src="{{asset('imagenes/motel.jpg')}}"width="350" height="350"></td>
-					<td><td><a href="{{ url('/restaurante') }}"><img src="{{asset('imagenes/restaurante.jpg')}}"width="350" height="350"></td></tr>	
-                   </div>
+                  <div class="col-md-14 col-md-offset-0">             
+                <tr><td><a href="{{ url('/adminHotel') }}"><img src="{{asset('imagenes/hotel.jpg')}}"width="350" height="350" ></td>
+            <td><td><a href="{{ url('/motelAdmin') }}"><img src="{{asset('imagenes/motel.jpg')}}"width="350" height="350"></td>
+          <td><td><a href="{{ url('/restauranteAdmin') }}"><img src="{{asset('imagenes/restaurante.jpg')}}"width="350" height="350"></td>
+            </tr> 
+                    </div>
+
+                    hol mhhdkh
 								
 								
                    </div>
