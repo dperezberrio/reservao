@@ -28,9 +28,7 @@ class LoginUserTest extends BrowserKitTestCase
      */
     public function testExample()
     {
-       //$user = new \App\User(['nombre' => 'Claudia']);
-       //auth()->login($user);	 
-	   //$this->assertSame(Bienvenido(), 'Bienvenido Claudia!');
+      
     }
 
     public function testPruebaLogin()

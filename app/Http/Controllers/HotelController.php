@@ -9,7 +9,7 @@ class HotelController extends Controller
 {	
  public function hotel()
  {
- $hotel = Hoteles::all('id', 'name', 'telefono', 'direccion');
+ $hotel = Hoteles::all();
  return view('hotel')->with('hotel',$hotel);
 }
 

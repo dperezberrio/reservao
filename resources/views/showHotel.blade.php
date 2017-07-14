@@ -14,17 +14,17 @@
                     <div class="form-group">
 					<center><table class="table">
 							 <tr>
-							 <td><strong>NOMBRE</strong></td>
-				             <td><strong>TELEFONO</strong></td>
-				             <td><strong>DIRRECION</strong></td>
-				             <td><strong>HABITACION</strong></td>
+							 <td><h1><strong>NOMBRE</strong></h1></td>
+				             <td><h1><strong>TELEFONO</strong></h1></td>
+				             <td><h1><strong>DIRRECION</strong></h1></td>
+				             <td><h1><strong>HABITACION</strong></h1></td>
 				              </tr>							 
 							
 							 <tr>
-							 <td>{{$hotel->name}}</td>
-							 <td>{{$hotel->telefono}}</td>
-							 <td>{{$hotel->direccion}}</td>
-							 <td>{{$hotel->habitacion}}</td>
+							 <td><h1>{{$hotel->name}}</h1></td>
+							 <td><h1>{{$hotel->telefono}}</h1></td>
+							 <td><h1>{{$hotel->direccion}}</h1></td>
+							 <td><h1>{{$hotel->habitacion}}</h1></td>
 							 </tr>						 
 											                    
 							</table>					    

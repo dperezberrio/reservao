@@ -30,8 +30,9 @@ class RegistroTest extends BrowserKitTestCase
 
    public function testRegistro()
     {
-        $this->visit('register');        
-        $this->type('danny', 'name');        
+        $this->visit('register');               
+        $this->type('danny', 'name');
+        $this->type('1', 'rol');
         $this->type('danny@hotmail.com', 'email');
         $this->type('123456', 'password');
         $this->type('123456', 'password_confirmation');

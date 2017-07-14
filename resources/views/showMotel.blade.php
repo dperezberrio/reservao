@@ -13,18 +13,19 @@
                 <div class="panel-body">
                     <div class="form-group">
 					<center><table class="table">
-							 <tr>
-							 <td><strong>NOMBRE</strong></td>
-				             <td><strong>TELEFONO</strong></td>
-				             <td><strong>DIRRECION</strong></td>
-				             <td><strong>HABITACION</strong></td>
+							  <tr>
+							 <td><h1><strong>NOMBRE</strong></h1></td>
+				             <td><h1><strong>TELEFONO</strong></h1></td>
+				             <td><h1><strong>DIRRECION</strong></h1></td>
+				             <td><h1><strong>HABITACION</strong></h1></td>
 				              </tr>							 
 							
 							 <tr>
-							 <td>{{$motel->name}}</td>
-							 <td>{{$motel->telefono}}</td>
-							 <td>{{$motel->direccion}}</td>
-							 <td>{{$motel->habitacion}}</td>
+							 <td><h1>{{$motel->name}}</h1></td>
+							 <td><h1>{{$motel->telefono}}</h1></td>
+							 <td><h1>{{$motel->direccion}}</h1></td>
+							 <td><h1>{{$motel->habitacion}}</h1></td>
+							 </tr>	
 							 </tr>						 
 											                    
 							</table>					    

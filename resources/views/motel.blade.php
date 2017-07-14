@@ -14,21 +14,32 @@
                     <div class="form-group">
 					<center><table class="table">							
 							 <tr>
-							 <td>NOMBRE</td>
-							 <td>ACCION</td>
-				            						 
+							 <td><h1><strong>IMAGEN</strong></h1></td>
+							 <td><h1><strong>NOMBRE</strong></h1></td>
+							 <td><h1><strong>ACCION</strong></h1></td>
+				             </tr>							 
 							 @foreach($motel as $item)
-							 <tr>
-							 <td>{{$item->name}}</td>
-							 
-							 <td><a href="/motel/{{$item->id}}/mostrar">VER</a></td>
+							 <tr>							
+							<td><img src="../imagenes/{{ $item->foto }}"width="120" height="120" ></td>
+							 <td><h1>{{$item->name}}</h1></td>
+							 <td><h1><a href="/motel/{{$item->id}}/mostrar">VER</a></h1></td>
 							 </tr>						 
 							 @endforeach()						
 							</table>									
 								<p>
 
-								<a href="{{ url('/home') }}"><button class="btn btn-primary btn-lg">ATRAS</button></a>				 </div>
-	                      </div>
+								
+						@if(Auth::user()->rol == 1)
+						   <button class="btn btn-primary btn-lg">Modificar</button></a>
+						<button class="btn btn-primary btn-lg">Agregar</button></a>
+						<button class="btn btn-primary btn-lg">Eliminar</button></a>
+							<a href="{{ url('/home') }}"><button class="btn btn-primary btn-lg">Atras</button></a>
+						@else
+							<a href="{{ url('/home') }}"><button class="btn btn-primary btn-lg">Atras</button></a>
+						@endif
+				 
+				         </div>
+	                  </div>
                </div>
              </div>
         </div>
